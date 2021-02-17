@@ -2,9 +2,11 @@
 ##########################
 /config/app_local.php
 /config/.env
-/logs/*
-/tmp/*
+# /logs/*
+# /tmp/*
 /vendor/*
+/node_modules/*
+/webroot/filed/*
 
 # OS generated files #
 ######################
