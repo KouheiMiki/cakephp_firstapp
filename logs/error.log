@@ -1,0 +1,46 @@
+2021-02-17 16:19:56 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 385
+Stack Trace:
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:165
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /mnt/g/workspace/cakephp_test/myApp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+
+
+2021-02-17 16:20:21 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 408
+Stack Trace:
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:165
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /mnt/g/workspace/cakephp_test/myApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /mnt/g/workspace/cakephp_test/myApp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+
+
