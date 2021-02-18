@@ -104,6 +104,7 @@ if (Configure::read('debug')) {
 }
 
 if (Configure::read('debug') && !isset($_ENV['CAKE_ENV'])) {
+    Configure::write('DebugKit.forceEnable', true);
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
