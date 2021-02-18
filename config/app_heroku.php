@@ -20,6 +20,7 @@ return [
             'quoteIdentifiers' => false,
         ],
     ],
+    /*
     'EmailTransport' => [
         'default' => [
             'className' => 'Smtp',
@@ -33,6 +34,7 @@ return [
             'tls' => null,
         ],
     ],
+    */
     'Log' => [
         'debug' => [
             'className' => 'Cake\Log\Engine\ConsoleLog',
